@@ -60,7 +60,7 @@ function Body(){
       <div className="overlay">
         <h1>Empowering Businesses with Technology Solutions</h1>
         <p>Enabling organizations to achieve success through innovative technological advancements.</p>
-        <button className="btn-start"><a>Get Started</a></button>
+        <button className="btn-start">Get Started</button>
       </div>
     </section>
 
