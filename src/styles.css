@@ -33,14 +33,14 @@ body {
   gap: 2rem;
 }
 
-.nav-links a {
+.nav-links p {
   color: white;
   text-decoration: none;
   font-size: 1rem;
   transition: opacity 0.2s ease;
 }
 
-.nav-links a:hover {
+.nav-links p:hover {
   opacity: 0.8;
 }
 .hero-section {
