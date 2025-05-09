@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebeae5;
+}
+
+.navbar {
+  background-color: #456B4C;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 0.8;
+}
+.hero-section {
+  height: 100vh;
+  background-image: url('../assets/backgroundd.png'); /* Replace with your preferred image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+}
+.btn-start{
+  font-size: large;
+  background-color: #4f7f5e;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+}
+.btn-start:hover{
+  background-color: #3e8e41;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.services-header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #456B4C;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.services-objects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #ebeae5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-left: 4px solid #456B4C;
+}
+
+.service-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #456B4C;
+  margin-bottom: 0.75rem;
+}
+
+.service-description {
+  color: #64748b;
+  margin: 0;
+  line-height: 1.6;
+}
+.container {
+  max-width: 1200px;
+  width: fit-content;
+  height: fit-content;
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+  display: flex;
+}
+.contact input{
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.btn-send{
+  width: 100%;
+  border: none;
+  background-color: #3e8e41;
+  color: #ebeae5;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: large;
+}
+footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #3e8e41;
+  color: #fff;
+  height: 45px;
+    /* margin: 3rem auto; */
+  padding: 0 10px;
+}
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #456B4C;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 0.5rem 0;
+  }
+  .container {
+
+  display: grid;
+}
+}
