@@ -46,10 +46,10 @@ return <>
         &#9776;
       </button>
       <nav className={`nav-links ${menuOpen ? 'active' : ''}`}>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+      <a href="home">Home</a>
+      <a href="Services">Services</a>
+      <a href="About">About</a>
+      <a href="COntact">Contact</a>
     </nav>
   </header>
     
